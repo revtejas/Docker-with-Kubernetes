@@ -11,5 +11,11 @@
 - Once you build docker image, we need to push the docker image to docker hub because we need a repo to store our docker image
 - Using the image in the docker hub, we will be deploying the application into kubernetes cluster. (It can be minicube or multiple nodes cluster)
 
+## Pre-requisite
+- Java application
+- Docker installed
+- Kubernetes cluster
+- Basic knowledge on Mave, Docker, Kubernetes
+
 ## Implementation
 
