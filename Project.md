@@ -1,4 +1,4 @@
-## Create GKE cluster and Deploy in it
+## Create GKE cluster and Deploy a website
 - Open cloud shell
 - Run 'docker run -p 8080:80 nginx:latest' to start the docker image
 - Run 'docker run -d -p 8080:80 nginx:latest' to start the docker image in the background
@@ -10,4 +10,10 @@
   - For example: Run 'docker cp index.html e9e6637ba7b8:/usr/share/nginx/html/'
 - check preview in new tab
 - It's RUNNING!
+
+## Create GKE cluster and Deploy from GCR
+### Objectives
+- Create GKE cluster
+- Deploy app through GCR after pushing image to GCR
+- App deployment and services
 
