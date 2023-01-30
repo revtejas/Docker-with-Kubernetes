@@ -5,3 +5,9 @@
 - Check preview in new tab to visit the website
 - Run 'docker ps' to see all the running docker images
 - Run 'docker ps -a' to see all the docker images
+- Copy container ID
+- Run 'docker cp <.html> <containerID>:<htmlpath>
+  - For example: Run 'docker cp index.html e9e6637ba7b8:/usr/share/nginx/html/'
+- check preview in new tab
+- It's RUNNING!
+
