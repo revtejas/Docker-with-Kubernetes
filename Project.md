@@ -13,7 +13,16 @@
 
 ## Create GKE cluster and Deploy from GCR
 ### Objectives
-- Create GKE cluster
-- Deploy app through GCR after pushing image to GCR
-- App deployment and services
+- Build jar fil using maven
+- Create Dockerfile inside target folder
+- Open cmd and change directory to project folder where dockerfile is present
+- Open cmd and build docker image using jar file
+    - "docker build -t <jarfile_Name>:<Tag> .
+- Once docker image is created, you can check it
+    - "docker images"
+- Run the docker
+    - "docker run -p 8081:8080 <jarfile_Name>
+- Open localhost:8081/API_Name
+- DONE!
+  
 
