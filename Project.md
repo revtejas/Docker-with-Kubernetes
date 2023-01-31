@@ -11,8 +11,7 @@
 - check preview in new tab
 - It's RUNNING!
 
-## Create GKE cluster and Deploy from GCR
-### Objectives
+## Dockerizing Springboot application
 - Build jar fil using maven
 - Create Dockerfile inside target folder
 - Open cmd and change directory to project folder where dockerfile is present
