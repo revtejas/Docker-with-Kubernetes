@@ -9,7 +9,7 @@
 - Run 'docker cp .html containerID:htmlpath
   - For example: Run 'docker cp index.html e9e6637ba7b8:/usr/share/nginx/html/'
 - check preview in new tab
-- It's RUNNING!
+- DONE!
 
 ## Dockerizing Springboot application
 - Build jar fil using maven
